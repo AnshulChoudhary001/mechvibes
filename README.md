@@ -2,7 +2,7 @@
 
 # Mechvibes
 
-It's a side project that I made for myself since when I use my own mechanical keyboard at late night or in the office and my parents and my coworkers hate that a lot because the sound of the keyboard is very loud (especially in quiet places). So if you are facing this issue just like me then this product is for you!
+Made Some UI Changes to the original [Mechvibes](https://github.com/hainguyents13/mechvibes) app.
 
 - You can add more keyboard sound set by recording any sound you like and add them to this app with some easy steps.
 
@@ -14,10 +14,11 @@ With Mechvibes Editor, you can create a new sound pack, edit existing sound pack
 
 ### How to use
 
-- Download it from [Releases](https://github.com/hainguyents13/mechvibes/releases/latest)
+- Download it from [Releases](https://github.com/DewanshNehra/mechvibes/releases/latest)
 - Run it.
 - Enjoy it.
 
 ### Issues
 
 🤝 Any ideas are welcomed!
+
