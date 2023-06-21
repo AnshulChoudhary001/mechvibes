@@ -3,7 +3,7 @@
   "productName": "Mechvibes",
   "version": "v2.3.1",
   "description": "Play mechanical keyboard sounds as you type.",
-  "repository": "https://github.com/hainguyents13/mechvibes",
+  "repository": "https://github.com/DewanshNehra/mechvibes",
   "main": "src/main.js",
   "scripts": {
     "start": "electron .",
@@ -14,8 +14,8 @@
   "keywords": [],
   "homepage": "https://mechvibes.com",
   "author": {
-    "name": "Hai Nguyen",
-    "email": "hainguyen.ts13@gmail.com"
+    "name": "Dewans Nehra",
+    "email": "dewansnehra@gmail.com"
   },
   "license": "MIT",
   "iohook": {

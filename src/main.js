@@ -24,6 +24,7 @@ function createWindow(show = true) {
   win = new BrowserWindow({
     width: 400,
     height: 600,
+    frame:false,
     webSecurity: false,
     // resizable: false,
     // fullscreenable: false,
@@ -33,6 +34,7 @@ function createWindow(show = true) {
       nodeIntegration: true,
     },
     show,
+    resizable:false,
   });
 
   // remove menu bar

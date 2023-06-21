@@ -9,7 +9,23 @@
     <link rel="stylesheet" href="./assets/app.css" />
   </head>
 
-  <body style="padding: 2rem">
+  <body style="padding: 2rem;
+              -webkit-user-select: none; /* Safari */
+              -moz-user-select: none; /* Firefox */
+              -ms-user-select: none; /* IE10+/Edge */
+              user-select: none; /* Standard */" oncontextmenu="return false">
+    <header>
+      <div class="h-main">
+      <div class="h-left">
+        <img src="./assets/mvicon.png" alt="logo">
+        <h1>Mechvibes</h1>
+      </div>
+      <div class="h-right" onclick="window.close()">
+        <img src="./assets/close.png" alt="">
+      </div>
+      </div>
+      <hr>
+    </header>
     <div id="app-logo">
       <div id="logo">Loading...</div>
     </div>
@@ -37,13 +53,13 @@
       </table>
       <div class="divider"></div>
       <div style="color: #666; font-size: 12px; text-align: center">
-        <p>Made with ❤ by <a href="https://github.com/hainguyents13/mechvibes/" class="open-in-browser">hainguyents13</a></p>
+        <p>Made with ❤ by <a href="https://github.com/DewanshNehra" class="open-in-browser">Dewans Nehra</a></p>
         <p>
           <a href="https://mechvibes.com" class="open-in-browser">Home page</a>
           &nbsp;&nbsp;|&nbsp;&nbsp;
           <a href="https://mechvibes.com/#qna" class="open-in-browser">FAQs</a>
           &nbsp;&nbsp;|&nbsp;&nbsp;
-          <a href="https://buymeacoff.ee/hainguyents13" class="open-in-browser">Buy me a coffee</a>
+          <a href="https://buymeacoff.ee/hainguyents13" class="open-in-browser">Support the Original Creator</a>
         </p>
         <p id="app-version" style="color: #999">-</p>
         <div id="update-available" class="hidden">

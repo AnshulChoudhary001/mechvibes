@@ -1,36 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  color: #555555;
+  background-color:#191819;
+}
+
 a,
 a:hover {
-  color: #ff5050;
+  color: #e71c4d;
 }
 
 a:hover {
   text-decoration: underline;
 }
 
+body{
+  background: #191819;
+  overflow: hidden;
+  color: #555555;
+}
+
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position:absolute;
+  top: 0px;
+  padding-bottom: 10px;
+  -webkit-app-region: drag;
+}
+
+.h-main{
+  width: 95vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.h-left{
+  display: flex;
+  width: 50%;
+  align-items: center;
+}
+
+header h1{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #E71C4D;
+  padding-top: 15px;
+}
+
+.h-right{
+  display: flex;
+  padding-right: 20px;
+  align-items: center;
+  -webkit-app-region: no-drag;
+}
+
+header hr{
+  border: 1px solid #282828;
+  transform: rotate(-0.14deg);
+  width: 90vw;
+  margin: 2px;
+}
+
 #app-logo {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
+  margin-top: 100px;
 }
 
 #logo {
   font-family: sans-serif;
   transition: all 0.1s ease;
-  box-shadow: 0 2px #ff6666;
+  box-shadow: 0 2px #e71c4d;
   font-size: 3rem;
   font-weight: 600;
-  background: #fff;
+  background: #191819;
   text-align: center;
   border-radius: 0.5rem;
-  border: 2px solid #000;
+  border: 2px solid #E71C4D;
   padding: 1rem 2rem;
-  color: #333;
+  color: #E71C4D;
 }
 
 #logo.pressed {
   box-shadow: 0 0;
   margin-bottom: -2px;
   margin-top: 2px;
+  border-radius: 10px;
+  animation: changeColor 1s linear infinite;
+}
+@keyframes changeColor {
+  0% {
+    box-shadow: 0px 0px 20px #E71C4D;
+  }
+  25% {
+    box-shadow: 0px 0px 20px #F06172;
+  }
+  50% {
+    box-shadow: 0px 0px 20px #FF8B9A;
+  }
+  75% {
+    box-shadow: 0px 0px 20px #FFB6C0;
+  }
 }
 
 .hidden {
@@ -40,7 +117,7 @@ a:hover {
 .divider {
   display: block;
   width: 100%;
-  border-bottom: 1px solid #e4e4e4;
+  border-bottom: 1px solid #555555;
   margin-top: 1rem;
   margin-bottom: 2rem;
 }
@@ -62,7 +139,7 @@ a:hover {
   appearance: none;
   width: 100%;
   height: 5px;
-  background: #d8d8d8;
+  background: #E71C4D;;
   outline: none;
   opacity: 0.7;
   -webkit-transition: 0.2s;
@@ -86,7 +163,8 @@ a:hover {
   /* Set a specific slider handle width */
   height: 20px;
   /* Slider handle height */
-  background: #ff5050;
+  background: #E71C4D;
+  box-shadow: 0px 0px 20px #E71C4D;
   /* Green background */
   cursor: pointer;
   /* Cursor on hover */
