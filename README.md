@@ -1,4 +1,4 @@
-![Mechvibes](https://i.imgur.com/78qUULA.jpg)
+![Mechvibes](https://i.imgur.com/T6Qq5Q3.png)
 
 # Mechvibes
 
